@@ -1,5 +1,25 @@
-﻿venv/
-__pycache__/
-*.pyc
+﻿# Ambientes virtuais
+venv310/
 .env
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.log
+*.bak
+*.tmp
+
+# Pasta de backups
+backup/
+
+# Arquivos do sistema
 .DS_Store
+Thumbs.db
