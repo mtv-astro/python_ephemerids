@@ -3,7 +3,7 @@
 
 ## 📦 Requisitos
 
-- Python 3.9+
+- Python 3.10.9+
 - Conta gratuita no https://opencagedata.com/
 
 ## 🚀 Como usar
