@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from datetime import datetime
 import requests
 import pytz
+import os
 from flatlib.chart import Chart
 from flatlib.datetime import Datetime
 from flatlib.geopos import GeoPos
@@ -10,7 +11,7 @@ from flatlib import const
 
 app = FastAPI()
 
-OPENCAGE_API_KEY = "3424b3aea9e64ebfbc6b54cd143f6c81"
+OPENCAGE_API_KEY = os.getenv("OPENCAGE_API_KEY")
 
 # Lista de objetos a serem incluídos no mapa astral
 PLANETS = [
